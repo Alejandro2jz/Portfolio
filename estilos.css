@@ -3,14 +3,12 @@
     margin: 0;
 }
 
-body {
+body {  
     background-image: url(mailchimp-Hv9CS6KZayQ-unsplash.jpg);
     color: black;
-    font-family: 'Times New Roman', Times, serif!important;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
-    text-align: center;
-    margin: 0;
-    padding: 0;    
+    text-align: center; 
     background-size: 300% 100%;
 }
 body::-webkit-scrollbar {
@@ -37,8 +35,6 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -49,7 +45,6 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +55,6 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     background-color: #f9af3f;
-    margin: 0;
     padding: 0;
     border-bottom: solid black 0.4rem;
 }
@@ -69,7 +63,6 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     font-size: 145%;
-    margin: 0;
     padding: 0 1rem 0 1rem;
 }
 .navbar-nav {
@@ -78,15 +71,14 @@ body::-webkit-scrollbar {
     justify-content: center;
     justify-content: space-around;
     width: 100%;
-    margin: 0;
-    padding: 0.8rem 0 0 0rem;
+    padding: 0.7em 0em 0em 0em;
 }
 .navbar-nav .nav-item {
     flex: 1;
     text-align: center;
 }
 .nav-link {
-    padding-bottom: 1.1rem;
+    padding-bottom: 0.55em;
 }
 .nav-link:hover {
     border-bottom: solid #F9AF3F 0.4em;
@@ -97,32 +89,26 @@ body::-webkit-scrollbar {
     grid-area: card;
 }
 .card {
-    margin: 2em 0 6em 0;
+    margin: 2em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     position: relative;
-    width: 25em ;
+    width: 20em ;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    color: black;
-    border-radius: 1rem;
+    border-radius: 1em;
 }
 .card-img-top {
     border-radius: 50%;
-    padding: 1rem;
-}
-h5{
-    font-size: 150%;
-}
-h6{
-    font-size: 80%;
+    padding: 1em;
 }
 
 
 .TituloPortfolio {
     grid-area: t-port;
     background-color: rgba(255, 255, 255, 0.5);
-    padding-top: 2em;
+    padding-top: 1em;
 }
 .p1                                              {
     grid-area: p1;
@@ -156,7 +142,7 @@ h6{
     margin: 5% 10% 5% 10%;
     padding: 2% 5% 2% 5%;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 2mm;
+    border-radius: 1em;
 }
 
 
@@ -164,8 +150,12 @@ h6{
     background-color: rgb(0, 0, 0, 0.5);
     grid-area: contacto;
 }
-h2 {
-    margin-bottom: 2rem;
+.contáctame {
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.25em;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 0.2em;
 }
 .divform {
     height: 100%;
@@ -173,13 +163,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3% 10% 3% 10%;
+    padding: 0% 10% 3% 10%;
     color: var(--bs-gray-600);
 }
 .form-control {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: x-large;
-    border: solid #F9AF3F 0.1rem;
+    border: solid #F9AF3F 0.08em;
 } 
 .form-control:hover{
     box-shadow: 0 0 0 0.25rem hsla(36, 94%, 61%, 0.5);
@@ -197,11 +187,14 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 3.6rem;
+    height: 3.1em;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 0.4rem;
-    border: solid #F9AF3F 0.1rem;
-    margin-bottom: 1rem;
+    border-radius: 0.3em;
+    border: solid #F9AF3F 0.08em;
+    margin-bottom: 0.8em;
+}
+#mensajeInput {
+    height: 7.5em;
 }
 .btn-group {
     width: 100%;
@@ -241,7 +234,7 @@ h2 {
     justify-content: center;
 }
 svg {
-    width: 4em;
+    width: auto;
     height: 4em;
     padding: 1em;
     color: #F9AF3F;
@@ -261,8 +254,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #F9AF3F;
-    color: black;
-    height: 3em;
+    height: 4em;
   }
 
 
@@ -291,7 +283,7 @@ footer {
     background-color: #f9af3f;
   }
   .nav-link {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.45em;
   }
   .card {
     padding: 0;

@@ -124,8 +124,6 @@ h6{
     background-color: rgba(255, 255, 255, 0.5);
     padding-top: 2em;
 }
-
-
 .p1                                              {
     grid-area: p1;
     background-color: rgba(255, 255, 255, 0.5);
@@ -140,6 +138,7 @@ h6{
 }
 .pag {
     display: inline;
+    padding-bottom: 2em;
 }
 .img {
     height: auto;
@@ -175,7 +174,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 3% 10% 3% 10%;
-    color: #F9AF3F;
+    color: var(--bs-gray-600);
 }
 .form-control {
     background-color: rgba(0, 0, 0, 0.5);
@@ -189,10 +188,10 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .form-control:valid{
-    color: #F9AF3F;
+    color: rgba(249, 175, 63, 0.75);
 }
 .form-control:invalid {
-    color: #F9AF3F;
+    color: rgba(249, 175, 63, 0.75);
 }
 .sexo {
     display: flex;
@@ -222,10 +221,10 @@ h2 {
 }
 
 
-.redes {
+.redes                                             {
     grid-area: redes;
 }
-.redes                                          {
+.redes {
     display: flex;
     align-items: center;
     justify-content: center;
